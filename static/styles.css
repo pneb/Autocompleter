@@ -1,0 +1,62 @@
+/* Set global styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #444;
+}
+
+/* Set container styles */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+}
+
+/* Set heading styles */
+h1 {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+/* Set form styles */
+form {
+  margin-bottom: 50px;
+}
+
+/* Set input styles */
+input[type="text"] {
+  font-size: 18px;
+  padding: 12px;
+  border-radius: 5px;
+  border: solid 1px #ccc;
+  width: 70%;
+  margin-right: 10px;
+}
+
+/* Set button styles */
+button {
+  font-size: 18px;
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+  background-color: #ff6f00;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #e65c00;
+}
+
+/* Set suggestion styles */
+#suggestion {
+  font-size: 18px;
+  margin-top: 40px;
+  color: #777;
+}
